@@ -1,0 +1,15 @@
+.history__img {
+	width: 320px;
+	height: 180px;
+}
+
+.wrap-capture {
+	margin-bottom: 20px;
+	width: 320px;
+	height: 180px;
+	overflow: hidden;
+}
+
+.capture {
+	height: 100%;
+}

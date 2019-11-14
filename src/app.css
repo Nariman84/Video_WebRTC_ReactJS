@@ -1,0 +1,37 @@
+.app {
+	padding-top: 100px;
+	text-align: center;
+}
+
+.block-stream {
+	margin: auto;
+    max-width: 640px;
+}
+
+.buttons {
+	margin-bottom: 20px;
+}
+
+.btn {
+	margin: 10px 30px;
+	width: 150px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25);
+	outline-style: none;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn:active:focus, .btn:focus {
+	outline: none;
+	box-shadow: none;
+}
+  
+.btn:hover {
+	transform: translateY(-3px);
+	color: #fff;
+}

@@ -1,0 +1,27 @@
+.stream {
+	margin-bottom: 20px;
+	height: 360px;
+	position: relative;
+	overflow: hidden;
+}
+
+.stream__img {
+	margin: auto;
+	display: block;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+}
+
+.btn--success {
+	background-color: #4B9C7B;
+}
+
+.btn--danger {
+	background-color: #C85B5B;
+}
+
+.btn--disable {
+	background-color: #BDBDBD;
+}
